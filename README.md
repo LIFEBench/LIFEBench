@@ -1,7 +1,7 @@
 # LIFEBench:  Evaluating Length Instruction Following in Large Language Models
 > **📑 Paper**:  The paper will be available soon.
 
-> **🛜 Website**: [https://ydyjya.github.io/LIFEBench/](https://allenai.github.io/re-align/index.html).
+> **🛜 Website**: [https://ydyjya.github.io/LIFEBench/](https://ydyjya.github.io/LIFEBench/).
 
 > **🤗 D**ataset: LIFEBench [https://huggingface.co/datasets/LIFEBench/LIFEBench].
 

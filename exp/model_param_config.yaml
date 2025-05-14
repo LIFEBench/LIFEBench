@@ -1,0 +1,171 @@
+gpt-4o-mini:
+  model: "gpt-4o-mini-2024-07-18"
+  max_completion_tokens: 16384
+  temperature: 0.8
+  top_p: 1
+
+gpt-4o:
+  model: "gpt-4o-2024-11-20"
+  max_completion_tokens: 16384
+  temperature: 0.8
+  top_p: 1
+
+o1-mini:
+  model: "o1-mini-2024-09-12"
+  max_completion_tokens: 65536
+
+o3-mini:
+  model: "o3-mini-2024-12-01-preview"
+  max_completion_tokens: 65536
+  reasoning_effort: "medium"
+
+claude-3.7-sonnet:
+  model: "claude-3-7-sonnet-20250219"
+  max_tokens: 64000
+  temperature: 0.8
+  top_p: 1
+
+claude-3.7-sonnet-thinking:
+  model: "claude-3-7-sonnet-20250219"
+  max_tokens: 64000
+  thinking: {
+    "type": "enabled"
+  }
+
+gemini-2.0-flash:
+  model: "gemini-2.0-flash"
+  max_output_tokens: 8192
+  temperature: 0.8
+  top_p: 1
+  response_mime_type: "text/plain"
+
+gemini-2.0-flash-thinking:
+  model: "gemini-2.0-flash-thinking-exp-01-21"
+  max_output_tokens: 65536
+  temperature: 0.8
+  top_p: 1
+  response_mime_type: "text/plain"
+
+gemini-2.5-pro:
+  model: "gemini-2.5-pro-preview-03-25"
+  max_output_tokens: 65536
+  temperature: 0.8
+  top_p: 1
+  response_mime_type: "text/plain"
+
+doubao-1.5-pro:
+  model: "doubao-1-5-pro-32k-250115"
+  max_tokens: 16384
+  temperature: 0.8
+  top_p: 1
+
+doubao-1.5-thinking-pro:
+  model: "doubao-1-5-thinking-pro-250415"
+  max_tokens: 16384
+  reasoning_effort: "medium"
+
+
+deepseek-r1:
+  model: "deepseek-reasoner"
+  max_completion_tokens: 8192
+  reasoning_effort: "medium"
+
+deepseek-v3:
+  model: "deepseek-chat"
+  max_completion_tokens: 8192
+  temperature: 0.8
+  top_p: 1
+
+Llama-3.1-8B-Instruct:
+  model: "../../model/Llama/Meta-Llama-3.1-8B-Instruct"
+  max_length: 131072
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+Llama-3.1-70B-Instruct:
+  model: "../../model/Llama/Llama-3.1-70B-Instruct"
+  max_length: 131072
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+Qwen3-235B-A22B:
+  model: "qwen3-235b-a22b"
+  temperature: 0.8
+  top_p: 1
+  max_completion_tokens: 8192
+  extra_body: {"enable_thinking": False}
+  stream: True
+
+Qwen3-235B-A22B-Thinking:
+  model: "qwen3-235b-a22b"
+  max_completion_tokens: 8192
+  extra_body: {"enable_thinking": True}
+  stream: True
+
+Qwen3-32B:
+  model: "qwen3-32b"
+  max_completion_tokens: 16384
+  top_p: 1
+  extra_body: {"enable_thinking": False}
+  temperature: 0.8
+  stream: True
+
+Qwen3-32B-Thinking:
+  model: "qwen3-32b"
+  max_completion_tokens: 16384
+  extra_body: {"enable_thinking": True}
+  stream: True
+
+Qwen2.5-7B-Instruct:
+  model: "../../model/Qwen/Qwen2.5-7B-Instruct"
+  max_new_tokens: 8192
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+Qwen2.5-72B-Instruct:
+  model: "../../model/Qwen/Qwen2.5-72B-Instruct"
+  max_new_tokens: 8192
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+glm-4-9b:
+  model: "../../model/THUDM/glm-4-9b-chat"
+  max_new_tokens: 65536
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+Mistral-7B-Instruct:
+  model: "../../model/mistralai/Mistral-7B-Instruct-v0.2"
+  max_length: 32768
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+LongWriter-glm4-9b:
+  model: "../../model/THUDM/LongWriter-glm4-9b"
+  max_new_tokens: 65536
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+LongWriter-llama3.1-8b:
+  model: "../../model/THUDM/LongWriter-llama3.1-8b"
+  max_new_tokens: 65536
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+suri-i-orpo:
+  model: "../../model/mistralai/Mistral-7B-Instruct-v0.2"
+  finetuned_model: "../../model/Suri/suri-i-orpo"
+  max_length: 32768
+  temperature: 0.8
+  top_p: 1
+  do_sample: True
+
+

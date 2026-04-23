@@ -1,5 +1,5 @@
 # LIFEBench:  Evaluating Length Instruction Following in Large Language Models
-> **📑 Paper**:  The paper will be available soon.
+> **📑 Paper**:  [LIFEBench](https://arxiv.org/abs/2505.16234)
 
 > **🛜 Website**: [https://ydyjya.github.io/LIFEBench/](https://ydyjya.github.io/LIFEBench/).
 

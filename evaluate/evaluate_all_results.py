@@ -65,7 +65,7 @@ def exp_asymmetric(deviation, k1=5, k2=2):
 
 def calculate_scores_eq(entry):
     deviation = calculate_deviation(entry)
-    score_e = exp_asymmetric(deviation)
+    score_e = exp_asymmetric(deviation / 100)
     return score_e
 
 
@@ -73,14 +73,14 @@ def calculate_scores_at_most(entry):
     deviation = calculate_deviation(entry)
     if deviation < 0:
         return 100
-    return exp_asymmetric(deviation)
+    return exp_asymmetric(deviation / 100)
 
 
 def calculate_scores_at_least(entry):
     deviation = calculate_deviation(entry)
     if deviation > 0:
         return 100
-    return exp_asymmetric(deviation)
+    return exp_asymmetric(deviation / 100)
 
 
 def calculate_scores_for_data(collected_data):
